@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codes File</title>
+        
+    </head>
+    <body>
+        
+        <h1>Codes File</h1>
+       
+        <pre>
+            <h2> <a href="javaScriptArray.html">Codes file</a></h2>
+        
+        <h2> 1. Create an array of five numbers and print all elements.</h2>
+            let numbers =[15, 21, 34, 42, 50,];
+            console.log(numbers);
+        <h2>2. Create an array of three fruits and print the first and last elements.</h3>
+            let fruits =["Apple", "Coconut", "Orange"]
+            console.log(fruits[0])
+            console.log(fruits[1])
+            <h2>3. Add "Mango" to the end of an array using push().</h3>
+            let fruits1 =["Apple", "Coconut", "Orange"]
+            fruits.push ("Mango")
+            console.log(fruits)
+            <h2>4. Find the length of the following array:</h2>
+            
+            console.log (numbers.length);
+            console.log (fruits.length);
+             <h2>5. Write a function that prints "Hello World".</h3>
+        function sayhello() {
+            console.log("Hello World");
+        }
+        sayhello();
+
+        <h2>6.Write a function that takes two numbers as parameters and prints their sum.</h2>
+        let num1 = 10;
+        let num2 = 20;
+        let num3 = 30;
+        let num4 = 40;
+        let num5 = 50;
+
+        function addNumbers(num1, num4) {
+            console.log(num1 + num4);
+        }
+        addNumbers(10,40);
+
+        <h2>7. Write a function that takes a number and returns its square.</h2>
+
+        function sqr(num) {
+            return num * num;
+        }
+        console.log(sqr(9));
+
+        <h2>8. : Write a function that checks whether a number is even or odd.</h2>
+
+        function check(num) {
+            if (num % 2 == 0) {
+                console.log("Even");
+            } else {
+                console.log("Odd");
+            }
+        }
+        check(6);
+
+        <h2>9. Write a function to find the largest of two numbers.</h2>
+
+        let nums1 = 10;
+        let nums2 = 5;
+
+        function largestnum(nums1, nums2) {
+            if (nums1 > nums2) {
+                console.log(nums1);
+            } else {
+                console.log(nums2);
+            }
+        }
+        largestnum(nums1, nums2);
+
+        <h2>10. Write a function that takes a name as an argument and prints a welcome message.</h2>
+        function welcome(name) {
+            console.log("Welcome " + name);
+        }
+        welcome("Sara");
+
+        <h2>11. Create a student object with name, age, and class properties. Print all three properties.</h2>
+
+        let student = {
+            name: "Ali",
+            age: 18,
+            class: 11
+        };
+
+        console.log(student.name);
+        console.log(student.age);
+        console.log(student.class);
+
+    <h2> 12. Create a car object with brand, model, and color properties. Print the car's brand.</h2>
+        let car = {
+            brand: "Honda",
+            model: "City",
+            color: "Black"
+        };
+
+        console.log(car.brand);
+
+    <h2>13.Update the age of the following student object to 20 and print it.</h2>
+        let student2 = {
+            name: "Ali",
+            age: 18
+        };
+
+        student2.age = 20;
+        console.log(student2.age);
+
+        <h2>14. Write a function that takes an array of numbers and returns the sum of all elements.</h2>
+        let digits = [10, 30, 40];
+
+        function sum(digits) {
+            return digits[0] + digits[1] + digits[2];
+        }
+
+        console.log(sum(digits));
+        <h2>15. Create an object for a student with name and marks properties. Write a function that prints the student's name and marks.</h2>
+        let studentInfo={
+            name:"Sana",
+            marks:73
+        }
+        function printDetails(data){
+        console.log("Name:" + data.name)
+        console.log("Marks:" + data.marks)}
+        printDetails(studentInfo)
+        </pre>
+    </body>
+</html>
